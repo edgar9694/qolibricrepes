@@ -1,0 +1,86 @@
+body{
+	background: #FAF8F6;
+}
+#fullPage{
+	width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+	display: grid;
+  grid-template-columns: auto 600px auto;
+  grid-template-rows: 0.5rem auto 1rem;
+}
+
+header{
+	grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  justify-self:  center;
+		text-align: center;
+}
+
+header img{
+	width: 100%;
+}
+
+.waffleBtnColor{
+	background: #444071;
+	color: #FAF8F6;
+}
+
+.waffleBtnColor:hover{
+	background: #444071;
+	color: #FAF8F6;
+}
+
+.waffleBtn{
+  /* padding: 15px 105px;
+  border-radius: 10px; */
+
+}
+
+.fade {
+   -webkit-transition: opacity .20s linear;
+      -moz-transition: opacity .20s linear;
+       -ms-transition: opacity .20s linear;
+        -o-transition: opacity .20s linear;
+           transition: opacity .20s linear;
+ }
+
+
+.mapouter{
+	position:relative;
+	text-align:center;
+	height:500px;
+	width:100%;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:100%;
+}
+/* width="600" height="500" */
+iframe {
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+	text-align: center;
+	padding: 10px;
+}
+
+/*
+color fondo #FAF8F6
+color titulo #3C3871
+*/
