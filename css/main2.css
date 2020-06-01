@@ -1,3 +1,5 @@
+
+
 body{
 	background: #FAF8F6;
 }
@@ -23,12 +25,12 @@ header img{
 }
 
 .waffleBtnColor{
-	background: #444071;
+	background: #D9803E;
 	color: #FAF8F6;
 }
 
 .waffleBtnColor:hover{
-	background: #444071;
+	background: #D9803E;
 	color: #FAF8F6;
 }
 
@@ -66,14 +68,6 @@ iframe {
 }
 
 
-
-
-
-
-
-
-
-
 footer{
 	text-align: center;
 	padding: 10px;
@@ -81,5 +75,6 @@ footer{
 
 /*
 color fondo #FAF8F6
-color titulo #3C3871
+color primario #3C3871
+color secundario #D9803E
 */

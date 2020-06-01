@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#orderModal").modal('show');
+  // $("#orderModal").modal('show');
 
   var date = new Date();
   isOpen()
