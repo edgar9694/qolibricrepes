@@ -73,6 +73,14 @@ footer{
 	padding: 10px;
 }
 
+#instaLogo{
+	transition: transform .2s;
+}
+
+#instaLogo:hover{
+	transform: scale(1.2);
+}
+
 /*
 color fondo #FAF8F6
 color primario #3C3871
